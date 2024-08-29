@@ -1,0 +1,8 @@
+my_string = input("Ваше ФИО?:")
+count = len(my_string)
+print(f"Количество символов в строке: {count}")
+print(my_string.upper())
+print(my_string.lower())
+print(my_string.replace( ' ', ''))
+print(my_string[0])
+print(my_string[-1])
